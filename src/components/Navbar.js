@@ -46,6 +46,7 @@ const Navbar = () => {
               href="https://www.twitter.com"
               target="_blank"
               className="nav-icon"
+              rel="noreferrer"
             >
               <i className="fab fa-facebook"></i>
             </a>
@@ -55,6 +56,7 @@ const Navbar = () => {
               href="https://www.twitter.com"
               target="_blank"
               className="nav-icon"
+              rel="noreferrer"
             >
               <i className="fab fa-twitter"></i>
             </a>
@@ -64,6 +66,7 @@ const Navbar = () => {
               href="https://www.twitter.com"
               target="_blank"
               className="nav-icon"
+              rel="noreferrer"
             >
               <i className="fab fa-squarespace"></i>
             </a>

@@ -8,7 +8,7 @@ const Tours = () => {
 
       <div className="section-center featured-center">
         {tour.map(function (tour) {
-          const { img, title, paragraph, location, days, price, date } = tour;
+          const { img, title, paragraph, location, days, date } = tour;
           return (
             <>
               <Tile
