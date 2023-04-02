@@ -7,6 +7,7 @@ const Footer = () => {
       <ul className="footer-links">
         {pageLinks.map(function (link) {
           const { id, href, text } = link;
+          // eslint-disable-next-line react/jsx-pascal-case
           return <Footer_Link id={id} href={href} text={text}></Footer_Link>;
         })}
       </ul>
@@ -15,7 +16,12 @@ const Footer = () => {
           const { icon, href } = social_link;
           return (
             <li>
-              <a href={href} target="_blank" className="footer-icon">
+              <a
+                href={href}
+                target="_blank"
+                className="footer-icon"
+                rel="noreferrer"
+              >
                 <i className={icon}></i>
               </a>
             </li>
